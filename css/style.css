@@ -1,0 +1,66 @@
+body {
+    padding: 0px 0px 0px;
+    margin:  0px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    left: 10px;
+    
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    left: 10px;
+} 
+.list li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+}    
+.navbar{
+    overflow: hidden;
+  background-color: black;
+  padding: 10px 5px;
+}
+.button-small{
+    padding: 10px 50px;
+    margin-left: 10px;
+     border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: blueviolet;
+    color: azure;
+}
+.hero-heading{
+    text-align: center;
+     font-size: 50px;
+     color: white;
+     padding-top: 5%;
+     font-weight: 900;
+}
+.hero-description{
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+    font-weight: 900;
+}
+.button-large{
+    padding: 20px 60px;
+    /* align-items: center; */
+     border-radius: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: blueviolet;
+    color: azure;  
+    text-align: center;
+    margin-left: 600px;
+    padding-top: 10px;
+    /* width: 50px;
+    height: 100px; */
+}
